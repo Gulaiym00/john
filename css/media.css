@@ -10,11 +10,49 @@
       a {
         display: none;
       }
-      .header-icon{
-        display: none`;
+      .header-icon {
+        display: block;
       }
     }
   }
+}
+#hero {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    .hero-text {
+      align-items: center;
+    }
+  }
+}
+#post {
+  .post {
+    .post-top {
+      justify-content: center;
+      a {
+        display: none;
+      }
+    }
+    .post-cards {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
+#featured {
+  .featured {
+    align-items: center;
+  }
+  .featured-card {
+    flex-direction: column;
+    gap: 20px;
+    img{
+      width: 100%;
+    }
+  }
+  
 }
 @media (max-width: 475px) {
 }
